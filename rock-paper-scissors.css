@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1{
+  font-size: 2rem;
+}
+.move-icon{
+    height: 50px;
+}
+.move-icon-btn{
+    height: 140px;
+    width: 140px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 70px;
+    margin-inline: 20px;
+    margin-block: 40px;
+    cursor: pointer;
+}
+.result{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.score, .moves{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-block: 40px;
+}
+.reset{
+    background-color: #fff;
+    padding: 12px 15px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
